@@ -1,0 +1,11 @@
+(
+  function(){
+    angular.module('data')
+    .component('item',{
+      templateUrl:"item.component.html",
+      bindings:{
+        items:"<"
+      }
+    })
+  }
+)();

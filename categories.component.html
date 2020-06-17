@@ -1,0 +1,4 @@
+<a ui-sref='home' >Home</a> &lt; List
+<ol>
+  <li ng-repeat='item in $ctrl.items' ui-sref='item-detail({short_name:item.sn})'>Name : {{item.name}} <br>Short Name:{{item.sn}}</li>
+</ol>
